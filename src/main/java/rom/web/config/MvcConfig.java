@@ -20,10 +20,10 @@ public class MvcConfig extends WebMvcConfigurerAdapter{
     /* 静的ファイルの設定 */
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+        registry.addResourceHandler("/resources/**").addResourceLocations("/WEB-INF/resources/");
     }
 
-    /* Bean定義の設定 */
+    /* 静的ファイルをデフォルトのサーブレットへ渡す */
     @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
         configurer.enable();
