@@ -43,9 +43,11 @@
                     ${msg}
                 </p>
 
-                <h2>Sample to QueryString</h2>
+                <h2>Spring JDBC Sample</h2>
                 <a href="/query">QueryString</a>
-                ${jdbc}
+                <p>
+                    ${jdbc}
+                </p>
 
                 <h2>動的に変わるリクエスト処理</h2>
                 <a href="/query/hoge">hogehoge</a>
