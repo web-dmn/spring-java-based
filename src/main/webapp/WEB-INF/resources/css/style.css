@@ -115,8 +115,22 @@ pre {
 }
 
 /* ▼Table▼ */
-table {
+.count-container table {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+.count-container th {
+    margin: 0 1em;
+}
+
+/* List */
+.list {
     margin-bottom: 2em;
+}
+
+.list ul {
+    margin-left: 2em;
 }
 
 /* ▼登録フォーム▼ */

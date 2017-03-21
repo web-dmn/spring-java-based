@@ -8,13 +8,15 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
+import rom.service.JpaService;
+import rom.service.impl.JpaServiceImpl;
 
 /**
  * Created by Java on 2017/03/15.
  */
 @EnableWebMvc
 @Configuration
-@ComponentScan(basePackages = { "rom.web.controller" })
+@ComponentScan(basePackages = { "rom.web.controller"})
 public class MvcConfig extends WebMvcConfigurerAdapter{
 
     /* 静的ファイルの設定 */
@@ -38,6 +40,9 @@ public class MvcConfig extends WebMvcConfigurerAdapter{
         return bean;
     }
 
-
-
+    @Bean
+    public JpaService jpaService() {
+        JpaService jpaService = new JpaServiceImpl();
+        return jpaService;
+    }
 }

@@ -17,19 +17,45 @@
 <body>
 <div class="wapper">
     <div class="header">
-        <h1>JavaBase </h1>
+        <h1>JavaBase Spring Framework</h1>
     </div>
 
     <div class="main">
         <div class="main--container">
             <div class="fluid-box-left">
                 <h2>Introduction</h2>
-                <p> JavaやSpringFrameworkを中心とした学習時のメモ＆進捗管理を実施。</p>
+                <p> SpringFrameworkのサンプルアプリケーション</p>
 
-                <h2>Entity</h2>
-                <p>Controller</p>
+                <h2>Contents</h2>
+                <div class="list">
+                <ul>
+                    <li>Document
+                        <ul>
+                            <li>Dependency Injection</li>
+                            <li>Aspect Oriented Programming</li>
+                            <li>Bean Configration</li>
+                            <li>Annotation</li>
+                            <li>Java Configration</li>
+                            <li>Spring JDBC</li>
+                            <li>Spring Data JPA</li>
+                            <li>Validator</li>
+                        </ul>
+                    </li>
+                    <li>Tutorial
+                        <ul>
+                            <li>Spring MVC (xml based)</li>
+                            <li>Spring MVC (Java based)</li>
+                            <li>Spring AOP</li>
+                            <li>Spring JDBC</li>
+                            <li>Spring Data JPA</li>
+                            <li>Validator</li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
 
-                <h2>pom.xml</h2>
+                <h2>Commons</h2>
+                <h3>pom.xml</h3>
                 <table>
                     <tr>
                         <th>groupId</th>
@@ -43,21 +69,43 @@
                     ${msg}
                 </p>
 
+                <%--
+                // JDBC 実行メソッド
                 <h2>Spring JDBC Sample</h2>
-                <a href="/query">QueryString</a>
+                <a href="/query">JDBC sample request</a>
                 <p>
                     ${jdbc}
                 </p>
+                --%>
 
-                <h2>動的に変わるリクエスト処理</h2>
-                <a href="/query/hoge">hogehoge</a>
+                <h2>Spring Data JPA Sample</h2>
+                <a href="/jpa">Get Data</a>
+                <p>
+                    ${jpa}
+                </p>
 
             </div>
             <div class="fluid-box-right">
 
-                <div class="box-title">PROFILE</div>
+                <div class="box-title">Management</div>
                 <div class="count-container">
-                    <div class="pv-counter"><a href="/cms">time-now</a></div>
+                    <table>
+                        <tr>
+                            <th>Version</th>
+                            <td>:</td>
+                            <td><a href="https://github.com/web-dmn">GitHub</a></td>
+                        </tr>
+                        <tr>
+                            <th>Build</th>
+                            <td>:</td>
+                            <td><a href="http://qiita.com/PixModule">Qiita</a></td>
+                        </tr>
+                        <tr>
+                            <th>Build</th>
+                            <td>:</td>
+                            <td><a href="http://qiita.com/PixModule">Qiita</a></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
@@ -66,7 +114,7 @@
     <div class="footer">
         <div class="footer-menu">
             <p>規約</p>
-            <div class="copyright">Copyright © 2017 pixmodule All Rights Reserved.<br>ver.1.0.0</div>
+            <div class="copyright">Copyright © 2017 MYu All Rights Reserved.<br>ver.1.0.0</div>
         </div>
     </div>
 
