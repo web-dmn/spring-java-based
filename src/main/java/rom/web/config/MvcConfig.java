@@ -16,7 +16,7 @@ import rom.service.impl.JpaServiceImpl;
  */
 @EnableWebMvc
 @Configuration
-@ComponentScan(basePackages = { "rom.web.controller"})
+@ComponentScan(basePackages = { "rom.web"})
 public class MvcConfig extends WebMvcConfigurerAdapter{
 
     /* 静的ファイルの設定 */

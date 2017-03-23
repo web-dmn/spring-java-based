@@ -17,7 +17,7 @@
 <body>
 <div class="wapper">
     <div class="header">
-        <h1>JavaBase Spring Framework</h1>
+        <h1>Spring Framework</h1>
     </div>
 
     <div class="main">
@@ -25,34 +25,6 @@
             <div class="fluid-box-left">
                 <h2>Introduction</h2>
                 <p> SpringFrameworkのサンプルアプリケーション</p>
-
-                <h2>Contents</h2>
-                <div class="list">
-                <ul>
-                    <li>Document
-                        <ul>
-                            <li>Dependency Injection</li>
-                            <li>Aspect Oriented Programming</li>
-                            <li>Bean Configration</li>
-                            <li>Annotation</li>
-                            <li>Java Configration</li>
-                            <li>Spring JDBC</li>
-                            <li>Spring Data JPA</li>
-                            <li>Validator</li>
-                        </ul>
-                    </li>
-                    <li>Tutorial
-                        <ul>
-                            <li>Spring MVC (xml based)</li>
-                            <li>Spring MVC (Java based)</li>
-                            <li>Spring AOP</li>
-                            <li>Spring JDBC</li>
-                            <li>Spring Data JPA</li>
-                            <li>Validator</li>
-                        </ul>
-                    </li>
-                </ul>
-                </div>
 
                 <h2>Commons</h2>
                 <h3>pom.xml</h3>
@@ -86,7 +58,9 @@
 
             </div>
             <div class="fluid-box-right">
-
+                <div class="entry">
+                    <a href="/entry">新規会員登録</a>
+                </div>
                 <div class="box-title">Management</div>
                 <div class="count-container">
                     <table>
@@ -107,6 +81,25 @@
                         </tr>
                     </table>
                 </div>
+
+                <h2>Contents</h2>
+                <div class="list">
+                    <ul>
+                        <li>Document
+                            <ul>
+                                <li>Dependency Injection</li>
+                                <li>Aspect Oriented Programming</li>
+                                <li>Bean Configration</li>
+                                <li>Annotation</li>
+                                <li>Java Configration</li>
+                                <li>Spring JDBC</li>
+                                <li>Spring Data JPA</li>
+                                <li>Validator</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </div>
