@@ -29,19 +29,19 @@
                         <table>
                             <tr>
                                 <th><form:label path="name" >名前</form:label></th>
-                                <td>${name}</td>
+                                <td><form:input path="name" value="${name}" readonly="true" /></td>
                             </tr>
                             <tr>
                                 <th><form:label path="kana">カナ</form:label></th>
-                                <td>${kana}</td>
+                                <td><form:input path="kana" value="${kana}" readonly="true"  /></td>
                             </tr>
                             <tr>
                                 <th><form:label path="email">E-MAIL</form:label></th>
-                                <td>${email}</td>
+                                <td><form:input path="email" value="${email}" readonly="true" /></td>
                             </tr>
                             <tr>
                                 <td><form:button name="back">戻る</form:button> </td>
-                                <td><form:button name="conf">登録</form:button> </td>
+                                <td><form:button name="comp">登録</form:button> </td>
                             </tr>
                         </table>
                     </form:form>
