@@ -14,3 +14,13 @@ Learning Spring Framework.
 
 その他  
 - Lombok
+
+## Todos
+1. SpringMvC
+2. SpringJDBC
+3. Spring Data JPA
+4. Validator
+5. Spring Security
+
+## 1.SpringMVC
+pom.xml
